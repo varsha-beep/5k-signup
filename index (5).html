@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light only">
+<meta name="supported-color-schemes" content="light">
+<title>Ganesha Gayathri Temple 5K Run/Walk — Oct 24</title>
+<meta name="description" content="Sign up for the Ganesha Gayathri Temple 5K Run/Walk, Saturday October 24, Carl R Hansen Woods. All proceeds go to the temple.">
+<style>
+  html{
+    color-scheme: light only;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:#FFFFFF !important;
+    color:#000000;
+    font-family:Georgia, 'Times New Roman', serif;
+    line-height:1.5;
+  }
+
+  .wrap{
+    max-width:600px;
+    margin:0 auto;
+    padding:24px 16px 60px;
+  }
+
+  hr{
+    border:none;
+    border-top:2px solid #000000;
+    margin:24px 0;
+  }
+
+  /* HEADER */
+  header{
+    text-align:center;
+    border-bottom:4px double #000000;
+    padding-bottom:16px;
+    margin-bottom:20px;
+  }
+  header .temple{
+    color:#000000;
+    font-weight:bold;
+    font-size:20px;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    margin:0 0 6px;
+  }
+  header h1{
+    font-size:44px;
+    margin:0;
+    letter-spacing:1px;
+    color:#000000;
+  }
+  header .sub{
+    font-size:20px;
+    margin:2px 0 10px;
+    font-weight:bold;
+    color:#000000;
+  }
+  header .when{
+    font-size:16px;
+    margin:0;
+    color:#000000;
+  }
+
+  /* INFO LIST */
+  h2{
+    font-size:18px;
+    border-bottom:2px solid #000000;
+    padding-bottom:4px;
+    margin:0 0 10px;
+    color:#000000;
+  }
+  ul.details{
+    margin:0 0 8px;
+    padding-left:20px;
+  }
+  ul.details li{
+    margin-bottom:8px;
+  }
+
+  table.pricing{
+    width:100%;
+    border-collapse:collapse;
+    margin:16px 0;
+    font-size:15px;
+  }
+  table.pricing th, table.pricing td{
+    border:1px solid #000000;
+    padding:8px 10px;
+    text-align:left;
+    color:#000000;
+  }
+  table.pricing th{
+    background:#000000;
+    color:#FFFFFF;
+  }
+  table.pricing td{
+    background:#FFFFFF !important;
+  }
+
+  .note{
+    font-style:italic;
+    font-size:14px;
+  }
+
+  /* FORM */
+  form{
+    border:1px solid #000000;
+    padding:20px;
+    margin-top:8px;
+  }
+  fieldset{
+    border:1px solid #000000;
+    margin:0 0 16px;
+    padding:12px;
+  }
+  legend{
+    font-weight:bold;
+    padding:0 6px;
+    font-size:14px;
+    color:#000000;
+  }
+
+  label{
+    display:block;
+    font-size:14px;
+    font-weight:bold;
+    margin:12px 0 4px;
+    color:#000000;
+  }
+  input[type=text], input[type=email], input[type=tel], input[type=number], select{
+    width:100%;
+    padding:6px 8px;
+    border:1px solid #000000;
+    font-size:15px;
+    font-family:inherit;
+    background:#FFFFFF !important;
+    color:#000000;
+  }
+  input:focus, select:focus{
+    outline:3px solid #000000;
+  }
+
+  .row2{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:12px;
+  }
+
+  .count-row{
+    display:grid;
+    grid-template-columns:1fr 90px;
+    align-items:center;
+    gap:8px;
+    margin:10px 0;
+  }
+  .count-row label{
+    margin:0;
+  }
+  .count-help{
+    font-size:12px;
+    font-weight:normal;
+    color:#000000;
+    display:block;
+  }
+
+  .total-box{
+    border:2px solid #000000;
+    padding:12px;
+    margin-top:16px;
+    text-align:center;
+    background:#FFFFFF !important;
+  }
+  .total-box .amt{
+    font-size:28px;
+    font-weight:bold;
+    color:#000000;
+  }
+  .total-box .label{
+    font-size:13px;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    color:#000000;
+  }
+
+  /* SHIRT SIZE ROWS */
+  .shirt-row{
+    margin:10px 0;
+    padding:8px 0;
+    border-bottom:1px solid #cccccc;
+  }
+  .shirt-row:last-child{
+    border-bottom:none;
+  }
+  .shirt-row label{
+    margin:0 0 4px;
+    font-size:13px;
+  }
+  .shirt-placeholder{
+    font-size:14px;
+    font-style:italic;
+    color:#555555;
+  }
+
+  /* ZELLE SCREENSHOT WARNING */
+  .screenshot-warning{
+    border:2px solid #000000;
+    padding:12px;
+    margin:16px 0;
+    font-size:14px;
+    font-weight:bold;
+    text-align:center;
+  }
+
+  button{
+    display:block;
+    width:100%;
+    margin-top:20px;
+    padding:12px;
+    background:#000000;
+    color:#FFFFFF;
+    border:2px solid #000000;
+    font-size:17px;
+    font-weight:bold;
+    font-family:inherit;
+    cursor:pointer;
+  }
+  button:hover{
+    background:#FFFFFF !important;
+    color:#000000;
+  }
+  button:disabled{
+    opacity:0.6;
+    cursor:default;
+  }
+
+  .form-msg{
+    margin-top:14px;
+    font-size:14px;
+    font-weight:bold;
+    text-align:center;
+    display:none;
+    padding:8px;
+    border:1px solid #000000;
+    color:#000000;
+  }
+  .form-msg.success{display:block;}
+  .form-msg.error{display:block;}
+
+  footer{
+    text-align:center;
+    font-size:13px;
+    margin-top:30px;
+    border-top:2px solid #000000;
+    padding-top:14px;
+    color:#000000;
+  }
+  a{color:#000000;}
+
+  @media (max-width:420px){
+    header h1{font-size:34px;}
+    .row2{grid-template-columns:1fr;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <p class="temple">Ganesha Gayathri Temple</p>
+    <h1>5K Run / Walk</h1>
+    <p class="sub">Saturday, October 24</p>
+    <p class="when">9:00 AM – 12:00 PM · Carl R Hansen Woods, Picnic Grove 2</p>
+  </header>
+
+  <h2>Details</h2>
+  <ul class="details">
+    <li>T-shirts, snacks, and hot/cold drinks included</li>
+    <li>All proceeds donated to Ganesha Gayathri Temple</li>
+    <li>Pay by Zelle to <a href="mailto:donations@ggtemple.org">donations@ggtemple.org</a></li>
+    <li>Questions? Call <a href="tel:3313021297">331-302-1297</a></li>
+  </ul>
+
+  <table class="pricing">
+    <tr><th></th><th>Adult</th><th>Kid (6+)</th><th>Kid (5 & under)</th></tr>
+    <tr><td>Early bird (by Oct 3)</td><td>$25</td><td>$15</td><td>Free</td></tr>
+    <tr><td>After Oct 3</td><td>$30</td><td>$20</td><td>Free</td></tr>
+  </table>
+  <p class="note">Pricing below updates automatically based on today's date.</p>
+
+  <hr>
+
+  <h2>Sign up your family or group</h2>
+  <form id="signupForm">
+
+    <fieldset>
+      <legend>Contact</legend>
+
+      <div class="row2">
+        <div>
+          <label for="firstName">First name</label>
+          <input type="text" id="firstName" name="firstName" required>
+        </div>
+        <div>
+          <label for="lastName">Last name</label>
+          <input type="text" id="lastName" name="lastName" required>
+        </div>
+      </div>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="phone">Phone</label>
+      <input type="tel" id="phone" name="phone" required>
+    </fieldset>
+
+    <fieldset>
+      <legend>Who's coming</legend>
+
+      <div class="count-row">
+        <label for="numAdults">Number of adults
+          <span class="count-help" id="adultPriceLabel">$25 each</span>
+        </label>
+        <input type="number" id="numAdults" name="numAdults" min="0" value="0" required>
+      </div>
+
+      <div class="count-row">
+        <label for="numKids">Number of kids (age 6+)
+          <span class="count-help" id="kidPriceLabel">$15 each</span>
+        </label>
+        <input type="number" id="numKids" name="numKids" min="0" value="0" required>
+      </div>
+
+      <div class="count-row">
+        <label for="numKidsFree">Number of kids (age 5 & under)
+          <span class="count-help">Free</span>
+        </label>
+        <input type="number" id="numKidsFree" name="numKidsFree" min="0" value="0" required>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>T-shirt sizes</legend>
+      <p class="note" style="margin:0 0 8px;">Pick a size for each adult and kid (age 6+). Kids age 5 & under don't get a t-shirt.</p>
+      <div id="shirtSizeRows">
+        <p class="shirt-placeholder">Enter the number of adults/kids (6+) above to choose sizes.</p>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Add a donation (optional)</legend>
+      <p class="note" style="margin:0 0 8px;">100% of proceeds go to Ganesha Gayathri Temple. Add anything extra you'd like to give.</p>
+      <label for="donationAmount">Additional donation ($)</label>
+      <input type="number" id="donationAmount" name="donationAmount" min="0" step="1" value="0">
+    </fieldset>
+
+    <div class="total-box">
+      <div class="label">Total to send via Zelle</div>
+      <div class="amt" id="totalAmt">$0</div>
+      <div class="label" id="totalCount">0 people</div>
+    </div>
+
+    <p class="note" style="text-align:center;">Send your total via Zelle to donations@ggtemple.org.</p>
+
+    <div class="screenshot-warning">
+      Please text/WhatsApp a screenshot of your Zelle payment to Shankar at 331-302-1297.
+    </div>
+
+    <button type="submit" id="submitBtn">Sign up</button>
+    <p class="form-msg" id="formMsg"></p>
+  </form>
+
+  <footer>
+    Ganesha Gayathri Temple 5K Run/Walk · <a href="tel:3313021297">331-302-1297</a>
+  </footer>
+
+</div>
+
+<script>
+  // Replace with your deployed Google Apps Script Web App URL
+  const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxp52fHvKY-nVtWEwAUzltkD7ulSo6VB15txbVlajgNYEfaT4rNNs_N1HzDd893TfKl/exec";
+
+  // Early bird cutoff: Oct 3, 2026, end of day
+  const EARLY_BIRD_CUTOFF = new Date("2026-10-04T00:00:00");
+  const isEarlyBird = new Date() < EARLY_BIRD_CUTOFF;
+  const ADULT_PRICE = isEarlyBird ? 25 : 30;
+  const KID_PRICE = isEarlyBird ? 15 : 20;
+
+  const SHIRT_SIZES = ['XS', 'S', 'M', 'L', 'XL', 'XXL'];
+
+  document.getElementById('adultPriceLabel').textContent = '$' + ADULT_PRICE + ' each';
+  document.getElementById('kidPriceLabel').textContent = '$' + KID_PRICE + ' each';
+
+  const adultsInput = document.getElementById('numAdults');
+  const kidsInput = document.getElementById('numKids');
+  const kidsFreeInput = document.getElementById('numKidsFree');
+  const donationInput = document.getElementById('donationAmount');
+  const totalAmt = document.getElementById('totalAmt');
+  const totalCount = document.getElementById('totalCount');
+  const shirtSizeRows = document.getElementById('shirtSizeRows');
+
+  function currentCounts(){
+    return {
+      adults: Math.max(0, parseInt(adultsInput.value, 10) || 0),
+      kids: Math.max(0, parseInt(kidsInput.value, 10) || 0),
+      kidsFree: Math.max(0, parseInt(kidsFreeInput.value, 10) || 0),
+      donation: Math.max(0, parseFloat(donationInput.value) || 0)
+    };
+  }
+
+  function updateTotal(){
+    const c = currentCounts();
+    const registrationTotal = c.adults * ADULT_PRICE + c.kids * KID_PRICE;
+    const total = registrationTotal + c.donation;
+    const people = c.adults + c.kids + c.kidsFree;
+    totalAmt.textContent = '$' + total;
+    totalCount.textContent = people + (people === 1 ? ' person' : ' people') +
+      (c.donation > 0 ? ' · includes $' + c.donation + ' donation' : '');
+  }
+
+  function buildSizeOptions(selected){
+    return SHIRT_SIZES.map(function(size){
+      return '<option value="' + size + '"' + (size === selected ? ' selected' : '') + '>' + size + '</option>';
+    }).join('');
+  }
+
+  function updateShirtRows(){
+    const c = currentCounts();
+    const total = c.adults + c.kids;
+
+    if (total === 0) {
+      shirtSizeRows.innerHTML = '<p class="shirt-placeholder">Enter the number of adults/kids (6+) above to choose sizes.</p>';
+      return;
+    }
+
+    // Preserve any sizes already selected before rebuilding
+    const previousValues = Array.prototype.slice.call(shirtSizeRows.querySelectorAll('select')).map(function(sel){
+      return sel.value;
+    });
+
+    let html = '';
+    let idx = 0;
+    for (let i = 1; i <= c.adults; i++, idx++) {
+      const prev = previousValues[idx] || 'M';
+      html += '<div class="shirt-row"><label for="shirtSize_' + idx + '">Adult ' + i + ' — shirt size</label>' +
+        '<select id="shirtSize_' + idx + '" class="shirt-size-select" data-label="Adult ' + i + '">' + buildSizeOptions(prev) + '</select></div>';
+    }
+    for (let i = 1; i <= c.kids; i++, idx++) {
+      const prev = previousValues[idx] || 'M';
+      html += '<div class="shirt-row"><label for="shirtSize_' + idx + '">Kid ' + i + ' — shirt size</label>' +
+        '<select id="shirtSize_' + idx + '" class="shirt-size-select" data-label="Kid ' + i + '">' + buildSizeOptions(prev) + '</select></div>';
+    }
+    shirtSizeRows.innerHTML = html;
+  }
+
+  function getShirtSizes(){
+    return Array.prototype.slice.call(shirtSizeRows.querySelectorAll('.shirt-size-select')).map(function(sel){
+      return sel.getAttribute('data-label') + ': ' + sel.value;
+    });
+  }
+
+  adultsInput.addEventListener('input', function(){ updateTotal(); updateShirtRows(); });
+  kidsInput.addEventListener('input', function(){ updateTotal(); updateShirtRows(); });
+  kidsFreeInput.addEventListener('input', updateTotal);
+  donationInput.addEventListener('input', updateTotal);
+  updateTotal();
+  updateShirtRows();
+
+  const form = document.getElementById('signupForm');
+  const submitBtn = document.getElementById('submitBtn');
+  const formMsg = document.getElementById('formMsg');
+
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    formMsg.className = 'form-msg';
+    formMsg.textContent = '';
+
+    const c = currentCounts();
+
+    if (c.adults + c.kids + c.kidsFree === 0) {
+      formMsg.textContent = 'Please enter at least 1 person.';
+      formMsg.className = 'form-msg error';
+      return;
+    }
+    if (SCRIPT_URL.indexOf('PASTE_YOUR') === 0) {
+      formMsg.textContent = 'Setup needed: paste your Google Apps Script URL into index.html.';
+      formMsg.className = 'form-msg error';
+      return;
+    }
+
+    submitBtn.disabled = true;
+    submitBtn.textContent = 'Submitting…';
+
+    const registrationTotal = c.adults * ADULT_PRICE + c.kids * KID_PRICE;
+
+    const data = {
+      firstName: document.getElementById('firstName').value.trim(),
+      lastName: document.getElementById('lastName').value.trim(),
+      email: document.getElementById('email').value.trim(),
+      phone: document.getElementById('phone').value.trim(),
+      numAdults: c.adults,
+      numKids: c.kids,
+      numKidsFree: c.kidsFree,
+      totalPeople: c.adults + c.kids + c.kidsFree,
+      adultPrice: ADULT_PRICE,
+      kidPrice: KID_PRICE,
+      registrationTotal: registrationTotal,
+      donationAmount: c.donation,
+      totalDue: registrationTotal + c.donation,
+      registrationWindow: isEarlyBird ? 'Early bird' : 'Regular',
+      shirtSizes: getShirtSizes().join(', '),
+      timestamp: new Date().toISOString()
+    };
+
+    fetch(SCRIPT_URL, {
+      method: 'POST',
+      mode: 'no-cors',
+      headers: { 'Content-Type': 'text/plain' },
+      body: JSON.stringify(data)
+    })
+    .then(function(){
+      formMsg.textContent = "You're signed up! We'll see you October 24.";
+      formMsg.className = 'form-msg success';
+      form.reset();
+      updateTotal();
+      updateShirtRows();
+    })
+    .catch(function(){
+      formMsg.textContent = 'Something went wrong. Please try again or call 331-302-1297.';
+      formMsg.className = 'form-msg error';
+    })
+    .finally(function(){
+      submitBtn.disabled = false;
+      submitBtn.textContent = 'Sign up';
+    });
+  });
+</script>
+
+</body>
+</html>
